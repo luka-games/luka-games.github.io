@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luka Games — Android Oyun Stüdyosu</title>
+  <meta name="description" content="Luka Games Android oyunları, gizlilik politikaları ve app-ads.txt doğrulama sayfası.">
+  <style>
+:root {
+  --bg: #0c1017;
+  --surface: #141b26;
+  --surface-alt: #1b2432;
+  --border: #263244;
+  --text: #e9eef5;
+  --muted: #9aa7b8;
+  --accent: #f4b740;
+  --accent-soft: rgba(244, 183, 64, 0.14);
+  --link: #56c2ff;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: radial-gradient(circle at top, #162030 0%, var(--bg) 55%);
+  color: var(--text);
+  line-height: 1.65;
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 36px 20px 64px;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 32px;
+}
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.brand h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+.brand p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+nav { display: flex; flex-wrap: wrap; gap: 14px; font-size: 0.95rem; }
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+  margin: 24px 0 36px;
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.card-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.card-head img {
+  width: 68px;
+  height: 68px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.card h2, .card h3 { margin: 0; font-size: 1.15rem; }
+.pkg {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.card p { margin: 0; color: #cfd8e3; font-size: 0.94rem; flex: 1; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; padding-top: 4px; }
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+.btn:hover { border-color: var(--accent); text-decoration: none; }
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.panel h2 { margin-top: 0; color: var(--accent); font-size: 1.25rem; }
+.panel h3 { margin-bottom: 6px; font-size: 1.04rem; }
+ul { padding-left: 20px; }
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.88rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <span class="badge">ANDROID MOBILE GAMES</span>
+        <h1>Luka Games</h1>
+        <p>Erdem Özgör · İletişim: <a href="mailto:erdemozgor@hotmail.com">erdemozgor@hotmail.com</a></p>
+      </div>
+      <nav>
+        <a class="btn" href="privacy.html">Genel Gizlilik Politikası</a>
+        <a class="btn" href="app-ads.txt">app-ads.txt</a>
+      </nav>
+    </header>
+
+    <section class="panel">
+      <h2>Oyunlarımız</h2>
+      <p>Google Play Store için uyarlanmış 5 Android oyunumuz aşağıdadır. Her oyun için özel gizlilik politikası bağlantısını Play Console'da doğrudan kullanabilirsiniz.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <div class="card-head">
+          <img src="assets/icons/kulfeneri.png" alt="Kül Feneri: Ada Bekçisi" width="68" height="68">
+          <div>
+            <h2>Kül Feneri: Ada Bekçisi</h2>
+            <div class="pkg">com.luka.kulfeneri</div>
+          </div>
+        </div>
+        <p>Yüzen adada fenerini yak, 10 dakika boyunca karanlık dalgalara karşı hayatta kal ve Kül Devi&#x27;ni yen.</p>
+        <div class="actions">
+          <a class="btn" href="privacy/kulfeneri.html">Gizlilik Politikası / Privacy</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-head">
+          <img src="assets/icons/altinkovan.png" alt="Altın Kovan: Sürü Savunması" width="68" height="68">
+          <div>
+            <h2>Altın Kovan: Sürü Savunması</h2>
+            <div class="pkg">com.luka.altinkovan</div>
+          </div>
+        </div>
+        <p>Ana Kovan&#x27;ı böcek istilasından koru, silahlarını evrilt ve Kraliçe&#x27;ye karşı sürü savunması kur.</p>
+        <div class="actions">
+          <a class="btn" href="privacy/altinkovan.html">Gizlilik Politikası / Privacy</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-head">
+          <img src="assets/icons/golgelabirent.png" alt="Gölge Labirent: Karanlık Kaçış" width="68" height="68">
+          <div>
+            <h2>Gölge Labirent: Karanlık Kaçış</h2>
+            <div class="pkg">com.luka.golgelabirent</div>
+          </div>
+        </div>
+        <p>10 aşamalı karanlık labirentte anahtarları topla, takipçiden gizlen ve fenerinin pilini idare ederek çıkışa ulaş.</p>
+        <div class="actions">
+          <a class="btn" href="privacy/golgelabirent.html">Gizlilik Politikası / Privacy</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-head">
+          <img src="assets/icons/sonokcu.png" alt="Son Okçu: Arena Hayatta Kal" width="68" height="68">
+          <div>
+            <h2>Son Okçu: Arena Hayatta Kal</h2>
+            <div class="pkg">com.luka.sonokcu</div>
+          </div>
+        </div>
+        <p>Otomatik arbaletinle dalga dalga gelen düşmanlara karşı savaş, kristalleri topla ve güçlendirme kartlarıyla hayatta kal.</p>
+        <div class="actions">
+          <a class="btn" href="privacy/sonokcu.html">Gizlilik Politikası / Privacy</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-head">
+          <img src="assets/icons/guneskosusu.png" alt="Güneş Koşusu: Antik Yol" width="68" height="68">
+          <div>
+            <h2>Güneş Koşusu: Antik Yol</h2>
+            <div class="pkg">com.luka.guneskosusu</div>
+          </div>
+        </div>
+        <p>Üç şeritli antik yolda engelleri aş, gökyüzü kristallerini topla ve hızlanan 90 saniyelik parkuru tamamla.</p>
+        <div class="actions">
+          <a class="btn" href="privacy/guneskosusu.html">Gizlilik Politikası / Privacy</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>Açık Kaynak Atıf ve Teşekkür / Open-Source Attribution</h2>
+      <p>Bu oyunların temel oyun mekanikleri ve Godot 4.7 kaynak kodları <strong>Yusuf İpek</strong> tarafından MIT Lisansı ile paylaşılan açık kaynak projelerden uyarlanmıştır. Emeği ve ilhamı için Yusuf İpek'e teşekkür ederiz.</p>
+      <p>Orijinal depolar: <a href="https://github.com/yusufipk" target="_blank" rel="noopener">github.com/yusufipk</a> · Tüm oyun içi künyelerde ve Play Store açıklamalarında açıkça atıf yapılmaktadır.</p>
+    </section>
+
+    <footer>
+      <span>© 2026 Luka Games (erdemozgor@hotmail.com)</span>
+      <span><a href="privacy.html">Gizlilik Politikası</a> · <a href="app-ads.txt">app-ads.txt</a></span>
+    </footer>
+  </div>
+</body>
+</html>
